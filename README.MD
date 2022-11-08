@@ -76,10 +76,11 @@ Press the below button to Fast deploy on Heroku
 ```py
 git clone https://github.com/adarsh-goel/Filestreambot-pro
 cd Filestreambot-pro
-virtualenv -p /usr/bin/python3 venv
+python3 -m venv ./venv
 . ./venv/bin/activate
 pip install -r requirements.txt
 python3 -m Adarsh
+
 ```
 
 and to stop the whole bot,
