@@ -14,7 +14,10 @@
         									 
 <style>
       marquee{
+      border-radius: 2px;
+      margin-bottom: 9px;
       font-size: 30px;
+      background-color: #00a1e5;
       font-weight: 800;
       color: Black;
       font-family: serif;
@@ -24,10 +27,35 @@
       marquee{
       font-size: 30px;
       font-weight: 800;
-      color: Black;
+      color: white;
       font-family: serif;
       }
     </style>
+	
+	<style>
+.alert {
+  padding: 20px;
+  margin-top: 15px;
+  border-radius: 7px;
+  background-color: #f44336;
+  color: white;
+}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
+}
+</style>
 </head>
 
 <body>
@@ -46,9 +74,13 @@
     </div>
 
     <footer>
-	    <center><h4>Video not playing ? possibly because your browser or the player doesn't support codec please download and watch :D</h4></center><p>
-	    <center><h2><a href="https://youtube.com/OpusTechz">
-  <img src="https://i.postimg.cc/k4qq2Kb7/opus.png" alt="OpusLogo" width="150" height="75"></center>
+	    
+	   <div class="alert">
+  <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+  <strong>Alert!</strong> Video not playing ? possibly because your browser or the player doesn't support codec please download and watch.
+</div>
+	    <center><h2><a href="https://t.me/redxtgbots">
+  <img src="https://i.postimg.cc/FR1yq2SP/REDXTGBOT-min.png" alt="ReDXLogo" width="150" height="75"></center>
 </a></center>
 	    	    
 
