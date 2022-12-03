@@ -50,7 +50,7 @@
          "UPDATES_CHANNEL": {
             "description": "update channel",
             "required": false,
-            "value": ".."
+            "value": "-1001208480573"
         },
          "OWNER_USERNAME": {
             "description": "user name admin",
@@ -58,9 +58,10 @@
             "value": "ez_harki_me"
         },
 
-      "BIN_CHANNEL": {
-          "description": "The BIN Channel ID. Read the readme for more info about this var"
-          
+        "BIN_CHANNEL": {
+          "description": "The BIN Channel ID. Read the readme for more info about this var",
+          "required": false,
+          "value": "-1001645543494"
       },
       "BANNED_CHANNELS": {
           "description": "Put IDs of Banned Channels where bot will not work. You can add multiple IDs & separate with Space.",
