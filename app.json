@@ -27,10 +27,13 @@
       },
       "API_ID": {
           "description": "Get this value from https://my.telegram.org",
-          "value": "3335796"
+          "value": "3335796",
+          "required": false
       },
       "API_HASH": {
-          "description": "Get this value from https://my.telegram.org"
+          "description": "Get this value from https://my.telegram.org",
+          "value": "138b992a0e672e8346d8439c3f42ea78",
+          "required": false
       },
       "BOT_TOKEN": {
           "description": "Get this value from @BotFather"
