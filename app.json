@@ -35,7 +35,7 @@
          "BOT_TOKEN": {
             "description": "Bot token",
             "required": false,
-            "value": "."
+            "value": "1943275919:AAFwSScrlR_i-AzdNTOiw8EEctbU_exOaGg"
         },
          "DATABASE_URL": {
             "description": "url database ",
